@@ -1,6 +1,6 @@
 import mysql.connector
 # setando a conexão com o BD
-conexao = mysql.connector.connect(host='localhost',database='banco',user='root',password='jr.falaschi')
+conexao = mysql.connector.connect(host='host_adress',database='db_name',user='user_name',password='password')
 
 # imprimindo a confirmação de conexão e estabelecendo o cursor
 if conexao.is_connected():
